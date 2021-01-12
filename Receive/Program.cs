@@ -43,7 +43,8 @@ namespace Receive
                 var message = Encoding.UTF8.GetString(ea.Body.ToArray());
                 Console.WriteLine(" Mesaj Alındı: " + message);
 
-                rabbitMqChannel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
+                rabbitMqChannel.BasicAck(deliveryTag: ea.DeliveryTag, 
+                                         multiple: false);
 
 
                 
