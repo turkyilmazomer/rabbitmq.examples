@@ -17,9 +17,10 @@ namespace Receive
             factory.Uri = new Uri("amqps://dazfzfmg:HLo6r8xAKPluHAqQE94tMj-PgWweHUAt@grouse.rmq.cloudamqp.com/dazfzfmg");
 
 
-            ////factory.HostName = "localhost";
-            ////factory.UserName = "guest";
-            ////factory.Password = "@mAT23ok";
+            //factory.HostName = "localhost";
+            //factory.UserName = "####KullanıcıAdıGir"####";
+            //factory.Password = "####ŞifreyiGir"####
+
             ///
             string queueName = "task_queue";
             var rabbitMqConnection = factory.CreateConnection();
@@ -65,9 +66,10 @@ namespace Receive
             //factory.Uri = new Uri("amqps://dazfzfmg:HLo6r8xAKPluHAqQE94tMj-PgWweHUAt@grouse.rmq.cloudamqp.com/dazfzfmg");
 
 
-            ////factory.HostName = "localhost";
-            ////factory.UserName = "guest";
-            ////factory.Password = "@mAT23ok";
+            //factory.HostName = "localhost";
+            //factory.UserName = "####KullanıcıAdıGir"####";
+            //factory.Password = "####ŞifreyiGir"####
+
 
             ////bağlantıyı açalım.
             ////usin ifadesi içerisinde bir clasdan bir nesne oluşturursak 
