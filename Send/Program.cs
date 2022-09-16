@@ -12,8 +12,9 @@ namespace Send
             factory.Uri = new Uri("amqps://dazfzfmg:HLo6r8xAKPluHAqQE94tMj-PgWweHUAt@grouse.rmq.cloudamqp.com/dazfzfmg");
 
             //factory.HostName = "localhost";
-            //factory.UserName = "guest";
-            //factory.Password = "@mAT23ok";
+            //factory.UserName = "####KullanıcıAdıGir"####";
+            //factory.Password = "####ŞifreyiGir"####
+
 
             //bağlantıyı açalım.
             //using ifadesi içerisinde bir clasdan bir nesne oluşturursak 
